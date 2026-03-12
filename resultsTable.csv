@@ -1,0 +1,42 @@
+Session: ClassificationLearnerSession,,,,,,,
+Training Data: DataforUCInamed    Observations: 10000,,,,,,,
+"Predictors: 13    Predictor Names: tau1, tau2, tau3, tau4, p1, p2, p3, p4, g1, g2, g3, g4, stab",,,,,,,
+"Response Name: stabf    Response Classes: 2    Response Class Names: stable, unstable",,,,,,,
+Validation: Holdout validation with 25% held out,,,,,,,
+Test Data: DataforUCInamed    Observations: 10000,,,,,,,
+,,,,,,,
+,,,,,,,
+Favorite,Model Number,Model Type,Status,Accuracy % (Validation),Total Cost (Validation),Accuracy % (Test),Total Cost (Test)
+0,1,Tree,Tested,99.96,1,100,0
+0,2.1,Tree,Tested,99.96,1,100,0
+0,2.2,Tree,Tested,99.96,1,100,0
+0,2.3,Tree,Tested,99.96,1,100,0
+0,2.4,Discriminant,Tested,96.48,88,96.6,340
+0,2.5,Discriminant,Failed,NaN,NaN,NaN,NaN
+0,2.6,Logistic Regression,Tested,99.96,1,100,0
+0,2.7,Naive Bayes,Tested,97.8,55,97.84,216
+0,2.8,Naive Bayes,Tested,98.88,28,99.07,93
+0,2.9,SVM,Tested,99.24,19,99.67,33
+0,2.10,SVM,Tested,99,25,99.57,43
+0,2.11,SVM,Tested,98.2,45,99.87,13
+0,2.12,SVM,Tested,64.24,894,100,0
+0,2.13,SVM,Tested,98.64,34,99.51,49
+0,2.14,SVM,Tested,98.56,36,98.85,115
+0,2.15,KNN,Tested,89.28,268,100,0
+0,2.16,KNN,Tested,94.32,142,96.43,357
+0,2.17,KNN,Tested,94.44,139,95.1,490
+0,2.18,KNN,Tested,92.48,188,95.21,479
+0,2.19,KNN,Tested,93.72,157,95.76,424
+0,2.20,KNN,Tested,94.36,141,100,0
+0,2.21,Ensemble,Tested,63.8,905,63.8,3620
+0,2.22,Ensemble,Tested,100,0,100,0
+0,2.23,Ensemble,Tested,98.68,33,98.26,174
+0,2.24,Ensemble,Tested,82.84,429,100,0
+0,2.25,Ensemble,Tested,63.8,905,63.8,3620
+0,2.26,Neural Network,Tested,99.68,8,100,0
+0,2.27,Neural Network,Tested,99.8,5,100,0
+0,2.28,Neural Network,Tested,99.8,5,100,0
+0,2.29,Neural Network,Tested,99.88,3,100,0
+0,2.30,Neural Network,Tested,99.92,2,100,0
+0,2.31,Kernel,Tested,77.52,562,84.67,1533
+0,2.32,Kernel,Tested,77.08,573,80.8,1920
